@@ -599,7 +599,7 @@ span{
 }
 @media(max-width:700px){
     #menu-icon{
-        position: sticky;
+        position: relative;
         display: block;
         color: var(--main-color);
     }
