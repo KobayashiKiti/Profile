@@ -65,7 +65,7 @@ body{
     color: var(--main-color);
     border-bottom: 3px solid var(--main-color);
 }
-menu-icon{
+#menu-icon{
     font-size: 3.6rem;
     color: none;
     display: none;
@@ -94,6 +94,24 @@ span{
 }
 .logo span{
     color: var(--main-color);
+}
+.name-img{
+    border-radius: 50%;
+}
+.name-img img{
+    position: relative;
+    top: 10%;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid var(--main-color);
+    box-shadow: 0 0 20px var(--main-color);
+    cursor: pointer;
+    transform: 0.4s ease-in-out;
+}
+.name-img img:hover{
+    box-shadow: 0 0 25px var(--main-color),
+                0 0 50px var(--main-color),
+                0 0 100px var(--main-color);
 }
 .home-content h3{
     margin-bottom: 2rem;
@@ -196,7 +214,7 @@ span{
     color:  var(--main-color);
     animation: words 20s infinite;
 }
-.text-animation span::after{
+/*.text-animation span::after{
     content: "";
     background-color: var(--bg-color);
     position: absolute;
@@ -204,21 +222,34 @@ span{
     height: 100%;
     border-left: 3px solid var(--bg-color);
     right: -8px;
-    animation: cursor 0.6s infinite, typing 20s steps (14) infinite;
+    animation: cursor 0.6s infinite, 
+    typing 20s steps (14) infinite;
 }
 @keyframes cursor{
     to{
-        border-left: 3px solid var(--main-color);
+        border-left: 2px solid var(--main-color);
     }
-}
+} */
 @keyframes words {
     0%,
-    50%{
+    20%{
         content: "Sinh Viên ICTU";
     }
-    51%,
-    100%{
+    21%,
+    40%{
         content: "Lập trình viên";
+    }
+    41%,
+    60%{
+        content: "Sinh Viên ICTU";
+    }
+    61%,
+    80%{
+        content: "Lập trình viên";
+    }
+    81%,
+    100%{
+        content: "Sinh Viên ICTU";
     }
 }
 @keyframes typing{
@@ -567,10 +598,11 @@ span{
     }
 }
 @media(max-width:895px){
-    menu icon{
+    #menu-icon{
         display: block;
+        color: var(--main-color);
     }
-    navbar{
+    .navbar{
         position: absolute;
         top:100%;
         right: 0;
@@ -578,7 +610,7 @@ span{
         padding: 1rem 3%;
         background: rgba(0, 0, 0, 0.8);
         backdrop-filter: blur(20px);
-        border-top-left-radius: 2rem;
+        border-bottom-left-radius: 2rem;
         border-left: 2px solid var(--main-color);
         border-bottom: 2px solid var(--main-color);
         display: none;
