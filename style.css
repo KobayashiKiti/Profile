@@ -601,6 +601,7 @@ span{
     #menu-icon{
         display: block;
         color: var(--main-color);
+        margin-left: 50px;
     }
     .navbar{
         position: absolute;
