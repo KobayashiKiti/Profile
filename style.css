@@ -13,7 +13,7 @@
     --bg-color:#080808;
     --second-bg-color:#131313;
     --text-color: white;
-    --main-color: #cc1ef7;
+    --main-color: #ba0de6;
 }
 
 html{
@@ -565,7 +565,7 @@ span{
 }
 @media(max-width:991px){
     header{
-        padding: 1.5rem 3%;
+        padding: 2rem 3%;
     }
     section{
         padding: 10rem 3% 2rem;
@@ -597,7 +597,7 @@ span{
         padding: 2rem 3%;
     }
 }
-@media(max-width:800px){
+@media(max-width:895px){
     #menu-icon{
         display: block;
         color: var(--main-color);
