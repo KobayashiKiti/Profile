@@ -13,7 +13,7 @@
     --bg-color:#080808;
     --second-bg-color:#131313;
     --text-color: white;
-    --main-color: #b80be3;
+    --main-color: #cc1ef7;
 }
 
 html{
@@ -116,10 +116,10 @@ span{
 .home-content h3{
     margin-bottom: 2rem;
     margin-top: 1rem;
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 .home-content h1{
-    font-size: 7rem;
+    font-size: 5rem;
     font-weight: 700;
     margin-top: 1.5rem;
     line-height: 1;
