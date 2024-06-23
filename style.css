@@ -597,7 +597,7 @@ span{
         padding: 2rem 3%;
     }
 }
-@media(max-width:800px){
+@media(max-width:700px){
     #menu-icon{
         display: block;
         color: var(--main-color);
