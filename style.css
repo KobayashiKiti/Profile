@@ -214,42 +214,45 @@ span{
     color:  var(--main-color);
     animation: words 20s infinite;
 }
-/*.text-animation span::after{
+.text-animation span::after{
     content: "";
     background-color: var(--bg-color);
     position: absolute;
     width: calc(100% + 8px);
-    height: 100%;
+    height: 110%;
     border-left: 3px solid var(--bg-color);
+    margin-top: -2px;
     right: -8px;
     animation: cursor 0.6s infinite, 
-    typing 20s steps (14) infinite;
+    typing 20s steps(14) infinite;
 }
 @keyframes cursor{
     to{
-        border-left: 2px solid var(--main-color);
+        border-left: 3px solid var(--main-color);
     }
-} */
+} 
 @keyframes words {
     0%,
     20%{
         content: "Sinh Viên ICTU";
+
     }
     21%,
     40%{
         content: "Lập trình viên";
+
     }
     41%,
     60%{
-        content: "Sinh Viên ICTU";
+        content: "Thiết kế đồ họa";
     }
     61%,
     80%{
-        content: "Lập trình viên";
+        content: "Editer Video";
     }
     81%,
     100%{
-        content: "Sinh Viên ICTU";
+        content:"Gamer";
     }
 }
 @keyframes typing{
