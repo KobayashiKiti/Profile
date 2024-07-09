@@ -212,6 +212,12 @@ span{
     background-color: var(--main-color);
     color: black;
 }
+.lgg{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+
+}
 .text-animation{
     font-size: 34px;
     font-weight: 600;
